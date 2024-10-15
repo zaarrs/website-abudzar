@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.container-banner {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+.container-banner h1 {
+  font-size: 50px;
+  font-family: "Inter", sans-serif;
+  font-weight: 650;
+  color: grey;
+  margin-bottom: -40px;
+}
+.container-banner h2 {
+  font-size: 50px;
+  font-family: "Inter", sans-serif;
+  font-weight: 650;
+  color: orange;
+}
+.container-banner p {
+  font-family: "Inter", sans-serif;
+  color: grey;
+  font-size: 15px;
+  margin-top: -30px;
+}
+.container-banner button {
+  color: white;
+  background-color: orange;
+  width: 100px;
+  height: 40px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 4px;
+}
+.image{
+  margin-right: 100px;
+}
+.induk-banner{
+  background-color: whitesmoke;
+}
+.container-navigasi{
+  display: flex;
+  
+  justify-content: space-between;
+}
+.logo{
+  margin-left: 10px;
+}
+.logo p{
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.bagian-navigasi{
+  margin-right: 40px;
+}
+
+.list-navigasi{
+  display: flex;
+ 
+  
+}
+
+.list-navigasi li{
+  margin-left: 10px;
+  list-style-type: none;
+  font-family: "Inter", sans-serif;
+  
+}
+.list-navigasi button{
+  background-color: orange;
+  border: none;
+  color: white;
+  width: 110px;
+  height: 38px;
+  border-radius: 5px;
+}
+.logo{
+  display: flex;
+  
+}
+
+.icon-menu{
+  display: none;
+}
+.user{
+  position: relative;
+  
+}
+.user span{
+  right: -10px;
+  top: -10px;
+
+  background-color: red;
+  color: white;
+  padding: 2px 7px;
+  border-radius: 20px;
+  position: absolute;
+  
+
+}
+.container-klien{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  flex-direction: column;
+
+  
+}
+.klien h1{
+  font-family: "Inter", sans-serif;
+
+
+}
+.klien p{
+  font-family: "Inter", sans-serif;
+  margin-bottom: 50px;
+  margin-top: -10px;
+}
+.klien{
+  margin-top: 100px;
+}
+
+#icon-klien{
+  width: 130%;
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: space-between; */
+  
+  /* align-items:space-between; */
+}
+.komunitas{
+  margin-top: 100px;
+}
+.komunitas h1 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+}
+.komunitas .h2{
+  margin-top: -15px;
+}
+.komunitas p{
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  margin-top: -10px;
+  color: gray;
+}
+.komunitas .img{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.container-tiga-tahun{
+  display: flex;
+  
+}
+
+
+@media only screen and (max-width: 745px){
+
+}
+
+
