@@ -129,7 +129,7 @@
 #icon-klien{
   width: 130%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   /* justify-content: space-between; */
   
   /* align-items:space-between; */
@@ -161,8 +161,154 @@
   display: flex;
   
 }
+.container-tiga-tahun h1{
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+} 
+.h1-2-{
+  margin-top: -15px;
+
+}
 
 
+.bagian-tulisan p{
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  
+
+}
+.bagian-tulisan button{
+  background-color: orange;
+  border: none;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+}
+.container-tiga-tahun{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.bagian-tulisan{
+  margin-left: 200px
+}
+.bagian-img{
+  margin-left: 70px;
+}
+.bagian-tulisan h1{
+  font-size: 25px;
+}
+.container-upgrade{
+  display: flex;
+  justify-content: space-between;
+}
+.container-upgrade .bagian-tulisan h1 {
+  font-size: 35px;
+  font-family: "Inter", sans-serif;
+  margin-left: -130px;
+}
+.container-upgrade .bagian-tulisan p{
+  margin-left: -130px;
+  margin-top: -20px;
+  color: gray;
+}
+.container-upgrade .bagian-tulisan .h1-2-{
+  color: orange;
+  margin-top: -30px;
+}
+.container-upgrade{
+  margin-top: 130px;
+  margin-bottom: 120px;
+  
+}
+#navigasi li{
+  position: relative;
+}
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  background-color:bisque;
+  list-style: none;
+  top: 100%;
+  padding-left: 0 !important;
+}
+.dropdown-menu a{
+ 
+  width: 150px;
+  display: block;
+
+  margin: 8px 12px;
+  text-align: center;
+
+  text-decoration: none;
+  padding: 12px 0;
+  
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.container-kurikulum h1{
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.container-kurikulum{
+  display: flex;
+
+}
+.container-kurikulum .bagian-tulisan{
+  margin-right: 50px;
+}
+.container-kurikulum img{
+  margin-left: 50px;
+}
+.container-hacker{
+  display: flex;
+}
+.container-hacker .bagian-gambar{
+ margin-left: 50px;
+
+}
+.container-hacker h1{
+  font-family: "Inter", sans-serif;
+  color: orange;
+}
+.container-hacker .p2{
+  color: gray;
+}
+.logo-img{
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo-img p{
+  color: orange;
+}
+.container-hacker .bagian-tulisan{
+  margin-right: 80px;
+}
+.container-hacker{
+  margin-top: 80px;
+  
+}
+ .container-apa-yg-baru .bagian-gambar{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+ }
+ .container-apa-yg-baru h1{
+  font-family: "Inter", sans-serif;
+ }
+ .container-apa-yg-baru{
+  margin-top: 100px;
+ }
+ .container-apa-yg-baru p{
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  
+ }
 @media only screen and (max-width: 745px){
 
 }
